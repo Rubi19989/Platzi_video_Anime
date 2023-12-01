@@ -29,7 +29,7 @@ const ModalVideos = props => {
 
 
   const handleButton = () => {
-    navigate('/')
+    navigate('/');
   }
 
   const hasPlaying = Object.keys(props.playing).length > 0;

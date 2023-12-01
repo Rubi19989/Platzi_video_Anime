@@ -36,4 +36,4 @@ export const getVideoSource = payload => ({
 export const searchVideo = payload => ({
     type: 'SET_SEARCH',
     payload,
-});
+});    
